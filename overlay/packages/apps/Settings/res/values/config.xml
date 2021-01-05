@@ -12,6 +12,13 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
+
+    <!-- Whether notify user that switch data service -->
+    <bool name="confirm_to_switch_data_service">true</bool>
 
     <!-- For Enabling Battery Heath -->
     <bool name="config_supportBatteryHealth">true</bool>
@@ -20,12 +27,5 @@
     <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
-
-    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
-         and currently depends on QC's proprietary telephony stack -->
-    <bool name="config_enableManualSubProvisioning">true</bool>
-
-    <!-- Whether notify user that switch data service -->
-    <bool name="confirm_to_switch_data_service">true</bool>
 
 </resources>
