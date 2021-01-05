@@ -486,9 +486,12 @@
          one bar higher than they actually are -->
     <bool name="config_inflateSignalStrength">true</bool>
 
-  <!-- Allow values to be customized for hardware
+    <!-- Allow values to be customized for hardware
              buttons backlight.  Do not translate. -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
+    <!-- Enable Smart charging. -->
+    <bool name="config_deviceSupportSmartCharging">true</bool>
 
     <!-- Smart Charging -->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
