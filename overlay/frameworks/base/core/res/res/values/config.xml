@@ -490,9 +490,6 @@
              buttons backlight.  Do not translate. -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
-    <!-- Enable Smart charging. -->
-    <bool name="config_deviceSupportSmartCharging">true</bool>
-
     <!-- Smart Charging -->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
