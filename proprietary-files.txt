@@ -1,463 +1,4 @@
-# ACDB Data
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_General_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
-etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
-
-# Camera
-bin/mm-qcamera-daemon
-lib/libRecoFace.so
-vendor/lib/lib-imscamera.so
-vendor/lib/libarcsoft_beauty_shot.so
-vendor/lib/libFaceGrade.so
-vendor/lib/libFaceProc.so
-vendor/lib/libflash_pmic.so
-vendor/lib/libimscamera_jni.so
-vendor/lib/libjpegdhw.so
-vendor/lib/libjpegdmahw.so
-vendor/lib/libjpegehw.so
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_dcrf.so
-vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
-vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_debug.so
-vendor/lib/libmmcamera2_sensor_modules.so|943bd5840adaef2020f4fbe625f8a20358a6c408
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera2_vpe_module.so
-vendor/lib/libmmcamera2_wnr_module.so
-vendor/lib/libmmcamera_chromaflash_lib.so
-vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dcrf_lib.so
-vendor/lib/libmmcamera_eeprom_util.so
-vendor/lib/libmmcamera_eztune_module.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_isp_abf40.so
-vendor/lib/libmmcamera_isp_bcc40.so
-vendor/lib/libmmcamera_isp_be_stats44.so
-vendor/lib/libmmcamera_isp_bf_stats47.so
-vendor/lib/libmmcamera_isp_bg_stats44.so
-vendor/lib/libmmcamera_isp_bhist_stats44.so
-vendor/lib/libmmcamera_isp_bpc40.so
-vendor/lib/libmmcamera_isp_chroma_enhan40.so
-vendor/lib/libmmcamera_isp_chroma_suppress40.so
-vendor/lib/libmmcamera_isp_clamp_encoder40.so
-vendor/lib/libmmcamera_isp_clamp_video40.so
-vendor/lib/libmmcamera_isp_clamp_viewfinder40.so
-vendor/lib/libmmcamera_isp_color_correct40.so
-vendor/lib/libmmcamera_isp_color_xform_encoder40.so
-vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so
-vendor/lib/libmmcamera_isp_cs_stats44.so
-vendor/lib/libmmcamera_isp_demosaic40.so
-vendor/lib/libmmcamera_isp_demux40.so
-vendor/lib/libmmcamera_isp_fovcrop_encoder40.so
-vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
-vendor/lib/libmmcamera_isp_gamma40.so
-vendor/lib/libmmcamera_isp_ihist_stats44.so
-vendor/lib/libmmcamera_isp_linearization40.so
-vendor/lib/libmmcamera_isp_ltm44.so
-vendor/lib/libmmcamera_isp_luma_adaptation40.so
-vendor/lib/libmmcamera_isp_mce40.so
-vendor/lib/libmmcamera_isp_mesh_rolloff40.so
-vendor/lib/libmmcamera_isp_rs_stats44.so
-vendor/lib/libmmcamera_isp_scaler_encoder44.so
-vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
-vendor/lib/libmmcamera_isp_sce40.so
-vendor/lib/libmmcamera_isp_sub_module.so
-vendor/lib/libmmcamera_isp_wb40.so
-vendor/lib/libmmcamera_optizoom_lib.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_ubifocus_lib.so
-vendor/lib/libmmcamera_vpu_module.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libmorpho_easy_hdr.so
-vendor/lib/libmorpho_hdr_checker.so
-vendor/lib/libmorpho_image_stab4.so
-vendor/lib/libmorpho_panorama_gp.so
-vendor/lib/libois_lc898122.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libqomx_jpegenc_pipe.so
--vendor/lib/libts_detected_face_hal.so
--vendor/lib/libts_face_beautify_hal.so
-
-# Camera actuators
-vendor/lib/libactuator_ad5816g.so
-vendor/lib/libactuator_ad5823.so
-vendor/lib/libactuator_bu64244gwz.so
-vendor/lib/libactuator_bu64297.so
-vendor/lib/libactuator_dw9714.so
-vendor/lib/libactuator_dw9716.so
-vendor/lib/libactuator_dw9718s_f16s01c.so
-vendor/lib/libactuator_dw9718s_f16v01a.so
-vendor/lib/libactuator_dw9761b.so
-vendor/lib/libactuator_dw9761b_omida01.so
-vendor/lib/libactuator_dw9761b_omida05.so
-vendor/lib/libactuator_dw9763_f3p3man.so
-vendor/lib/libactuator_lc898122.so
-vendor/lib/libactuator_lc898212xd.so
-vendor/lib/libactuator_rohm_bu64243gwz.so
-
-# Camera chromatix
-vendor/lib/libchromatix_csidtg_common.so
-vendor/lib/libchromatix_csidtg_cpp_preview.so
-vendor/lib/libchromatix_csidtg_postproc.so
-vendor/lib/libchromatix_csidtg_preview.so
-vendor/lib/libchromatix_ov5670_a3_default_preview.so
-vendor/lib/libchromatix_ov5670_a3_default_video.so
-vendor/lib/libchromatix_ov5670_a3_hfr_60.so
-vendor/lib/libchromatix_ov5670_a3_hfr_90.so
-vendor/lib/libchromatix_ov5670_a3_hfr_120.so
-vendor/lib/libchromatix_ov5670_common.so
-vendor/lib/libchromatix_ov5670_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov5670_cpp_hfr_60.so
-vendor/lib/libchromatix_ov5670_cpp_hfr_90.so
-vendor/lib/libchromatix_ov5670_cpp_hfr_120.so
-vendor/lib/libchromatix_ov5670_cpp_liveshot.so
-vendor/lib/libchromatix_ov5670_cpp_preview.so
-vendor/lib/libchromatix_ov5670_cpp_snapshot.so
-vendor/lib/libchromatix_ov5670_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov5670_cpp_video.so
-vendor/lib/libchromatix_ov5670_cpp_video_full.so
-vendor/lib/libchromatix_ov5670_d5v01g_a3_default_preview.so
-vendor/lib/libchromatix_ov5670_d5v01g_a3_default_video.so
-vendor/lib/libchromatix_ov5670_d5v01g_a3_hfr_60.so
-vendor/lib/libchromatix_ov5670_d5v01g_a3_hfr_90.so
-vendor/lib/libchromatix_ov5670_d5v01g_a3_hfr_120.so
-vendor/lib/libchromatix_ov5670_d5v01g_common.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_hfr_60.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_hfr_90.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_hfr_120.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_liveshot.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_preview.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_snapshot.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_video.so
-vendor/lib/libchromatix_ov5670_d5v01g_cpp_video_full.so
-vendor/lib/libchromatix_ov5670_d5v01g_default_video.so
-vendor/lib/libchromatix_ov5670_d5v01g_hfr_60.so
-vendor/lib/libchromatix_ov5670_d5v01g_hfr_90.so
-vendor/lib/libchromatix_ov5670_d5v01g_hfr_120.so
-vendor/lib/libchromatix_ov5670_d5v01g_liveshot.so
-vendor/lib/libchromatix_ov5670_d5v01g_postproc.so
-vendor/lib/libchromatix_ov5670_d5v01g_preview.so
-vendor/lib/libchromatix_ov5670_d5v01g_snapshot.so
-vendor/lib/libchromatix_ov5670_d5v01g_video_full.so
-vendor/lib/libchromatix_ov5670_d5v01g_zsl_preview.so
-vendor/lib/libchromatix_ov5670_d5v01g_zsl_video.so
-vendor/lib/libchromatix_ov5670_default_video.so
-vendor/lib/libchromatix_ov5670_hfr_60.so
-vendor/lib/libchromatix_ov5670_hfr_90.so
-vendor/lib/libchromatix_ov5670_hfr_120.so
-vendor/lib/libchromatix_ov5670_liveshot.so
-vendor/lib/libchromatix_ov5670_omi5f06_a3_default_preview.so
-vendor/lib/libchromatix_ov5670_omi5f06_a3_default_video.so
-vendor/lib/libchromatix_ov5670_omi5f06_a3_hfr_60.so
-vendor/lib/libchromatix_ov5670_omi5f06_a3_hfr_90.so
-vendor/lib/libchromatix_ov5670_omi5f06_a3_hfr_120.so
-vendor/lib/libchromatix_ov5670_omi5f06_common.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_hfr_60.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_hfr_90.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_hfr_120.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_liveshot.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_preview.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_snapshot.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_video.so
-vendor/lib/libchromatix_ov5670_omi5f06_cpp_video_full.so
-vendor/lib/libchromatix_ov5670_omi5f06_default_video.so
-vendor/lib/libchromatix_ov5670_omi5f06_hfr_60.so
-vendor/lib/libchromatix_ov5670_omi5f06_hfr_90.so
-vendor/lib/libchromatix_ov5670_omi5f06_hfr_120.so
-vendor/lib/libchromatix_ov5670_omi5f06_liveshot.so
-vendor/lib/libchromatix_ov5670_omi5f06_postproc.so
-vendor/lib/libchromatix_ov5670_omi5f06_preview.so
-vendor/lib/libchromatix_ov5670_omi5f06_snapshot.so
-vendor/lib/libchromatix_ov5670_omi5f06_video_full.so
-vendor/lib/libchromatix_ov5670_omi5f06_zsl_preview.so
-vendor/lib/libchromatix_ov5670_omi5f06_zsl_video.so
-vendor/lib/libchromatix_ov5670_polaris_a3_default_preview.so
-vendor/lib/libchromatix_ov5670_polaris_a3_default_video.so
-vendor/lib/libchromatix_ov5670_polaris_a3_hfr_60.so
-vendor/lib/libchromatix_ov5670_polaris_a3_hfr_90.so
-vendor/lib/libchromatix_ov5670_polaris_a3_hfr_120.so
-vendor/lib/libchromatix_ov5670_polaris_common.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_60.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_90.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_hfr_120.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_liveshot.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_preview.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_snapshot.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_video.so
-vendor/lib/libchromatix_ov5670_polaris_cpp_video_full.so
-vendor/lib/libchromatix_ov5670_polaris_default_video.so
-vendor/lib/libchromatix_ov5670_polaris_hfr_60.so
-vendor/lib/libchromatix_ov5670_polaris_hfr_90.so
-vendor/lib/libchromatix_ov5670_polaris_hfr_120.so
-vendor/lib/libchromatix_ov5670_polaris_liveshot.so
-vendor/lib/libchromatix_ov5670_polaris_postproc.so
-vendor/lib/libchromatix_ov5670_polaris_preview.so
-vendor/lib/libchromatix_ov5670_polaris_snapshot.so
-vendor/lib/libchromatix_ov5670_polaris_video_full.so
-vendor/lib/libchromatix_ov5670_polaris_zsl_preview.so
-vendor/lib/libchromatix_ov5670_polaris_zsl_video.so
-vendor/lib/libchromatix_ov5670_postproc.so
-vendor/lib/libchromatix_ov5670_preview.so
-vendor/lib/libchromatix_ov5670_snapshot.so
-vendor/lib/libchromatix_ov5670_video_full.so
-vendor/lib/libchromatix_ov5670_zsl_preview.so
-vendor/lib/libchromatix_ov5670_zsl_video.so
-vendor/lib/libchromatix_ov16880_f16v01a_common.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_hfr_60.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_hfr_90.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_hfr_120.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_liveshot.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_preview.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_snapshot.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_video.so
-vendor/lib/libchromatix_ov16880_f16v01a_cpp_video_full.so
-vendor/lib/libchromatix_ov16880_f16v01a_default_preview_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_default_video.so
-vendor/lib/libchromatix_ov16880_f16v01a_default_video_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_60.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_60_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_90.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_90_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_120.so
-vendor/lib/libchromatix_ov16880_f16v01a_hfr_120_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_liveshot.so
-vendor/lib/libchromatix_ov16880_f16v01a_postproc.so
-vendor/lib/libchromatix_ov16880_f16v01a_preview.so
-vendor/lib/libchromatix_ov16880_f16v01a_snapshot.so
-vendor/lib/libchromatix_ov16880_f16v01a_video_full.so
-vendor/lib/libchromatix_ov16880_f16v01a_zsl_preview_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_f16v01a_zsl_video_dw9718s_f16v01a.so
-vendor/lib/libchromatix_ov16880_omida05_common.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_hfr_60.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_hfr_90.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_hfr_120.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_liveshot.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_preview.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_snapshot.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_video.so
-vendor/lib/libchromatix_ov16880_omida05_cpp_video_full.so
-vendor/lib/libchromatix_ov16880_omida05_default_preview_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_default_video.so
-vendor/lib/libchromatix_ov16880_omida05_default_video_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_60.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_60_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_90.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_90_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_120.so
-vendor/lib/libchromatix_ov16880_omida05_hfr_120_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_liveshot.so
-vendor/lib/libchromatix_ov16880_omida05_postproc.so
-vendor/lib/libchromatix_ov16880_omida05_preview.so
-vendor/lib/libchromatix_ov16880_omida05_snapshot.so
-vendor/lib/libchromatix_ov16880_omida05_video_full.so
-vendor/lib/libchromatix_ov16880_omida05_zsl_preview_dw9761b_omida05.so
-vendor/lib/libchromatix_ov16880_omida05_zsl_video_dw9761b_omida05.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_default_preview_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_default_video_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_hfr_60_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_hfr_90_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_hfr_120_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_zsl_preview_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_a3_zsl_video_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_common.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_preview.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_snapshot.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_cpp_video.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_default_video.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_liveshot.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_postproc.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_preview.so
-vendor/lib/libchromatix_s5k3p3_f3p3man_snapshot.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_default_preview_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_default_video_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_hfr_60_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_hfr_90_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_hfr_120_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_zsl_preview_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_a3_zsl_video_dw9718s.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_common.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_preview.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_snapshot.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_cpp_video.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_default_video.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_liveshot.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_postproc.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_preview.so
-vendor/lib/libchromatix_s5k3p3_f16s01c_snapshot.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_default_preview_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_default_video_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_hfr_60_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_hfr_90_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_hfr_120_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_zsl_preview_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_a3_zsl_video_dw9714_q3p3maa.so
-vendor/lib/libchromatix_s5k3p3_omida01_common.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_preview.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_snapshot.so
-vendor/lib/libchromatix_s5k3p3_omida01_cpp_video.so
-vendor/lib/libchromatix_s5k3p3_omida01_default_video.so
-vendor/lib/libchromatix_s5k3p3_omida01_hfr_60.so
-vendor/lib/libchromatix_s5k3p3_omida01_hfr_90.so
-vendor/lib/libchromatix_s5k3p3_omida01_hfr_120.so
-vendor/lib/libchromatix_s5k3p3_omida01_liveshot.so
-vendor/lib/libchromatix_s5k3p3_omida01_postproc.so
-vendor/lib/libchromatix_s5k3p3_omida01_preview.so
-vendor/lib/libchromatix_s5k3p3_omida01_snapshot.so
-vendor/lib/libchromatix_s5k5e8_yx13_a3_default_preview.so
-vendor/lib/libchromatix_s5k5e8_yx13_a3_default_video.so
-vendor/lib/libchromatix_s5k5e8_yx13_a3_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_yx13_a3_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_yx13_a3_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_yx13_common.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_ds_chromatix.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_liveshot.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_preview.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_snapshot.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_us_chromatix.so
-vendor/lib/libchromatix_s5k5e8_yx13_cpp_video.so
-vendor/lib/libchromatix_s5k5e8_yx13_default_video.so
-vendor/lib/libchromatix_s5k5e8_yx13_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_yx13_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_yx13_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_yx13_liveshot.so
-vendor/lib/libchromatix_s5k5e8_yx13_postproc.so
-vendor/lib/libchromatix_s5k5e8_yx13_preview.so
-vendor/lib/libchromatix_s5k5e8_yx13_snapshot.so
-vendor/lib/libchromatix_s5k5e8_yx13_zsl_preview.so
-vendor/lib/libchromatix_s5k5e8_yx13_zsl_video.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_a3_default_preview.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_a3_default_video.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_a3_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_a3_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_a3_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_common.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_ds_chromatix.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_liveshot.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_preview.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_snapshot.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_us_chromatix.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_cpp_video.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_default_video.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_hfr_60.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_hfr_90.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_hfr_120.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_liveshot.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_postproc.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_preview.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_snapshot.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_preview.so
-vendor/lib/libchromatix_s5k5e8_z5e8yab_zsl_video.so
-
-# Camera firmware
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw
-
-# Camera sensors
-vendor/lib/libmmcamera_ov5670.so
-vendor/lib/libmmcamera_ov5670_d5v01g.so
-vendor/lib/libmmcamera_ov5670_omi5f06.so
-vendor/lib/libmmcamera_ov5670_polaris.so
-vendor/lib/libmmcamera_ov16880_f16v01a.so
-vendor/lib/libmmcamera_ov16880_f16v01a_eeprom.so
-vendor/lib/libmmcamera_ov16880_omida05.so
-vendor/lib/libmmcamera_ov16880_omida05_eeprom.so
-vendor/lib/libmmcamera_s5k3p3_f3p3man.so
-vendor/lib/libmmcamera_s5k3p3_f3p3man_eeprom.so
-vendor/lib/libmmcamera_s5k3p3_f16s01c.so
-vendor/lib/libmmcamera_s5k3p3_gt24c64_eeprom.so
-vendor/lib/libmmcamera_s5k3p3_omida01.so
-vendor/lib/libmmcamera_s5k3p3_omida01_eeprom.so
-vendor/lib/libmmcamera_s5k5e8_yx13.so
-vendor/lib/libmmcamera_s5k5e8_z5e8yab.so
-vendor/lib/libmmcamera_s5k5e8_z5e8yab_eeprom.so
-vendor/lib/libmmcamera_sunny_omi5f06_eeprom.so
-
-# Display calibration data
-etc/pp_calib_data_sharp_r63315_1080p_video_mode_dsi_panel.xml|08d8a40dc05ab00eb0709319b99e507124aacfdd
-
-# Fingerprint sensor
-bin/gx_fpd
-lib64/hw/fingerprint.goodix.default.so:lib64/hw/fingerprint.gdx.so
-lib64/hw/fingerprint.msm8952.so:lib64/hw/fingerprint.fpc.so
-lib64/hw/gxfingerprint.default.so
-lib64/lib_fpc_tac_shared.so
-lib64/libfp_client.so
-lib64/libfpnav.so
-lib64/libfpservice.so
-lib/hw/fingerprint.msm8952.so:lib/hw/fingerprint.fpc.so
-lib/lib_fpc_tac_shared.so
-
-# Fingerprint firmware
-etc/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03
-etc/firmware/goodixfp.mdt
+# kenzo device proprietary files
 
 # ADSP
 lib/libadsprpc.so
@@ -513,25 +54,17 @@ vendor/etc/diracmobile.config
 lib/soundfx/libasphere.so
 lib64/soundfx/libasphere.so
 
-# Bluetooth - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# Bluetooth - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|378ad8ce95651b4bf81ad73aaffbdf0666c55432
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a244ce3acd958c31865e048e0ead9bc54d1c0465
-vendor/lib64/libbtnv.so|ce4e129e4b7ed7a25a663c26139e5efc0ef88215
 vendor/lib64/libbt-hidlclient.so|8941f5c8f9e1422117685b2e76f35ced85b167c0
+vendor/lib64/libbtnv.so|ce4e129e4b7ed7a25a663c26139e5efc0ef88215
 
-# Bluetooth (shared dependencies) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# Bluetooth (shared dependencies) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
 
-# Bluetooth Audio - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
-vendor/lib64/hw/audio.bluetooth_qti.default.so|41fc011c61a572abc8f83d3a23dace98a7d04080
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5728506d9ca992ceef93cec7473034a7eeee98f4
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|76134fb75ff99948e0d00728db058aed8f519c3f
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|51b017a7d35d71522319d2a3d5922b53e0f18230
-vendor/lib64/libbluetooth_audio_session_qti.so|ba33d6868daf56ddce6065f2a03be651b16f98df
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|995a8127aea3b2de9efe68a5e5a6a61c80f438e7
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|7cdd376b08b8571e51674e0e61607c6a52a5a24a
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|42aa6258f3bf4e8ef72b7664f2277db49837e4da
+# Bluetooth Audio - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/lib/hw/audio.bluetooth_qti.default.so|f0f31aee0b22334bc0752486b6c039f2f93f120c
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8a7105c0559b6a255642a336779b105c6dc76623
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|5fa61b2a1c8ebc2b1381662cdf13c328ad4d24b4
@@ -540,34 +73,26 @@ vendor/lib/libbluetooth_audio_session_qti.so|1b4a17c396d61a52ad374ba22f51739426f
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|235d8dc80e335a9c323f2ce395cb09b297493025
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|0976fd28359b218cd041aca3fb03acde045aa760
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|b849985a2fc292120a26ba7649addd3bb6e0de1e
+vendor/lib64/hw/audio.bluetooth_qti.default.so|41fc011c61a572abc8f83d3a23dace98a7d04080
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5728506d9ca992ceef93cec7473034a7eeee98f4
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|76134fb75ff99948e0d00728db058aed8f519c3f
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|51b017a7d35d71522319d2a3d5922b53e0f18230
+vendor/lib64/libbluetooth_audio_session_qti.so|ba33d6868daf56ddce6065f2a03be651b16f98df
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|995a8127aea3b2de9efe68a5e5a6a61c80f438e7
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|7cdd376b08b8571e51674e0e61607c6a52a5a24a
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|42aa6258f3bf4e8ef72b7664f2277db49837e4da
 
 # Bluetooth aptX
 vendor/lib/libaptXHD_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e01c 
 vendor/lib/libaptX_encoder.so|984739a0bc968e18f75ced205733fe3f51c2d4f0
 vendor/lib/libldacBT_abr.so|0b22afcc8e3b49c5af67b8957ac9e08ea158ab20
 vendor/lib/libldacBT_enc.so|a5fb63c23a748ed3e1ddf39c6da353f3d2da88f1
-vendor/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e 
-vendor/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+vendor/lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127 
+vendor/lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|7b13cf50e7a5fa7cd59e28e54c6b7dc06889bcf7 
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|867e374575edf2a445ed9fa774f5566f763f0756
 
-
-# Camera
-vendor/lib/libchromaflash.so 
-vendor/lib/libllvd_smore.so 
-vendor/lib/libllvd_sw_tnr.so 
-vendor/lib/libmmcamera_isp_abcc44.so 
-vendor/lib/libmmcamera_llvd.so 
-vendor/lib/libmmcamera_sw_tnr.so 
-vendor/lib/liboptizoom.so
-vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so 
-vendor/lib/libubifocus.so 
-
-# Charger
-vendor/bin/hvdcp_opti
-
-# CNE - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# CNE - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
 etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
 etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
@@ -576,8 +101,6 @@ product/lib64/com.quicinc.cne.api@1.1.so|8940ad6defe4ffba387a259a698c2def51f1d5f
 product/lib64/com.quicinc.cne.constants@1.0.so|e2f9123a013c2c116b02a1e057870f885808f654
 product/lib64/com.quicinc.cne.constants@2.0.so|b58e07086d9992d0911391ad185f277e1cfd4fe5
 product/lib64/com.quicinc.cne.constants@2.1.so|92fc6a953b061fea1895e58fa298ce8de8a6d03c
--vendor/app/CneApp/CneApp.apk|2356a0335ab8e0106832a9325f972467654fd1f0
--vendor/app/IWlanService/IWlanService.apk|12da3d82b6cc062d2af29a0b5f43fc8acf9adbb2
 vendor/bin/cnd|edba24c950546f80478916bb1ffe02ed58f4c96d
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -627,9 +150,10 @@ vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|f338ec0fe9c5f49ecd94e1835b6a1
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|53794a8d4dfeb0fbd233a4b128749a06d515c3f7
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|35ad6e08d00e8b1695964fa7d6ddbc521eda8628
 vendor/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
+-vendor/app/CneApp/CneApp.apk|2356a0335ab8e0106832a9325f972467654fd1f0
+-vendor/app/IWlanService/IWlanService.apk|12da3d82b6cc062d2af29a0b5f43fc8acf9adbb2
 
-
-# DPM - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# DPM - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 product/bin/dpmd|cac8f3eadeeec202f56d5b5f7a8c75e82e376d9f
 product/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
@@ -642,40 +166,41 @@ product/lib64/libdpmctmgr.so|7ee0d1d40a8fc7fea924602db13717235ed2c2aa
 product/lib64/libdpmfdmgr.so|cb0157da0ffe6827471662a5b7881e85165cb5aa
 product/lib64/libdpmframework.so|8b2183e4b50a033b10c640cbc0b14a39ed5dca16
 product/lib64/libdpmtcm.so|a98ab3c419ebe49c6f3351ef4fa64ebda65d0e7d
--product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 vendor/bin/dpmQmiMgr|a43829d478ebc243b5f7307b44aa501a7a3c8211
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 vendor/lib64/libdpmqmihal.so|25d74c0e867f023b71a7c599ab6d213c7de2725d
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 
-#  DRM - from smartron-rimo02a-8.0.0-T5524INDURC-475
-bin/qseecomd:vendor/bin/qseecomd|20a166a2258222a786f7f8948c5f05efefeefe6d
-vendor/lib/libQSEEComAPI.so|c7e251269fc8d00a287449efef7c7385f87bdd07
-vendor/lib64/lib-sec-disp.so|53aa1f8358f67b4a2212d0c7d3b64d3b91ccdb19
-vendor/lib64/libQSEEComAPI.so|13daf33d75412c53938f881bdbdfa14aa86b317f
-vendor/lib64/libSecureUILib.so|d040aacabfa73d4f496f2e719515dcb82ca7ac2c|53eb8634a4c15597e9e9c41892660821ae13e14a
-vendor/lib64/libStDrvInt.so|45ddafcbc484b1e3e94ffe4af68f26f672c3c4b2
-vendor/lib64/libdrmfs.so|91543daa7f573420e701fbc942c12bee1ac20812
-vendor/lib64/libdrmtime.so|8a82cb36856a1f845e1cb8c7c29ec52b9636f7e9
-vendor/lib64/librpmb.so|0d2150269bd6fe41a02d3c41e5c5739f72ae4eb1|cc12a22a9b4304ba20b820589ff0bfd6954f668e
-vendor/lib64/libsecureui.so|2af128ecb7724f912795aed8b5419560bc8d8466
-vendor/lib64/libsecureui_svcsock.so|cc586de86f4e93c1a072420e3ee2dc743617c56e
-vendor/lib64/libssd.so|53e2fc329e1b709758d4b66180c88c42cbd14288
-vendor/lib64/libqisl.so|c665714a1e618313a645be5617fc1f09a3a4d41b
-vendor/lib64/libGPreqcancel.so|a11d29d299f9514bceac4857cd52c4ac8894ced5
-vendor/lib64/libGPreqcancel_svc.so|8bdb7f24be10323a1d8890cc8124f4df63bf7141
+# DRM
+vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so
+vendor/lib64/lib-sec-disp.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libssd.so
+
+# DRM (Widevine) - from daisy - daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
+vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 
 # Energy awareness - from smartron (smartron-rimo02a-8.0.0-T5524INDURC-475)
 vendor/bin/energy-awareness|8ec3f96a118c37a2dda0d70122ff075861641ccc
 
-# Firmwares
-etc/firmware/DE.o.msm8952|a7c25709e65409e559b8a6849646bca027c4f40e
-etc/firmware/DE.o.msm8976|676a46b8d21ac238fa12fbccdead6521dce2926c
+# Gatekeeper
+vendor/lib64/hw/gatekeeper.msm8952.so
 
-#  Gatekeeper - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib64/hw/gatekeeper.msm8952.so|d6ec95511d4025835534286a813dd98b47488986
-
-# GPS - from daisy - daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# GPS - from daisy - daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/bin/garden_app|f0a1f082c2abaf0ffda363e52361587f1c8a7492
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|7f7006829005658c9b89c61ac02f107d3d6fe470
 vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
@@ -687,23 +212,28 @@ vendor/bin/xtwifi-inet-agent|58749dc8fc9fdce0c184f3689d50299734b0f988
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
 vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
 vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
+vendor/lib/vendor.qti.gnss@1.0.so|2fbfffb280becb4c890787958d5471c887e0e29e
+vendor/lib/vendor.qti.gnss@1.1.so|3f185bf7c146a8f77fe6c35d57358e7c64b15ac2
+vendor/lib/vendor.qti.gnss@1.2.so|020509617283c8323c71c1eec955b7a09d62aa89
+vendor/lib/vendor.qti.gnss@2.0.so|ef5e1e3718cd71a01a4ca7b06f38d56b6aca50aa
+vendor/lib/vendor.qti.gnss@2.1.so|c7eeb37d061f7978624810ccc1d1d7f25e9f95da
+vendor/lib/vendor.qti.gnss@3.0.so|e4f5a7fd2dcdf56f8d69e4d0b27e996812ebd295
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|02717939c65794f29ab10bb8175081dbcfde0327
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|2328835a0e0221a527c8e55c72e1a0dcef3fcfbe
 vendor/lib64/libbatching.so|d46350976bb1d3dfd1e9d354c176290eb1284a42
 vendor/lib64/libdataitems.so|0ff60a5f4273cc3eb9f1f8a4d7bd204107375cec
 vendor/lib64/libgdtap.so|f5151c6425312d37c1eeb78cce1f92b71ae79e10
 vendor/lib64/libgeofencing.so|57f23c8de2503824e9b05e9c49fae2aecf3f7e9d
-vendor/lib64/libgnsspps.so|e7335d3aba2ce9762d578f33401dbccdec938239
 vendor/lib64/libgnss.so|94dfb20cfd0f992ed48e91939bb52f226d67cf99
+vendor/lib64/libgnsspps.so|e7335d3aba2ce9762d578f33401dbccdec938239
 vendor/lib64/libgps.utils.so|3c59a467e02e34e1b2f9d9b3fedc879b62e434c6
 vendor/lib64/libizat_client_api.so|b85018c41fb06de3e2f877288b5d8d18ea00077b
 vendor/lib64/libizat_core.so|fe74fb6cd3320ff8c938eb6b35b8f206b7265a4b
 vendor/lib64/liblbs_core.so|a20c4f11667138d372f4318bd532bfd4282b9e23
--vendor/lib64/libloc_api_v02.so|b8649d539b3ba48d3ed63dfb35e2ee827431ffa1
-vendor/lib64/liblocation_api.so|804ae5f481ad44cca0094d10a82e28024d14423f
-vendor/lib64/liblocationservice_glue.so|dab65642bfba2756c5ad0a38e0107c3ab04637f9
-vendor/lib64/liblocationservice.so|c8c2493df1a542b9b3efe78795a4887ad81611f3
 vendor/lib64/libloc_core.so|0fa734d7e486315c25a9d1a93235ad58fc835132
+vendor/lib64/liblocation_api.so|804ae5f481ad44cca0094d10a82e28024d14423f
+vendor/lib64/liblocationservice.so|c8c2493df1a542b9b3efe78795a4887ad81611f3
+vendor/lib64/liblocationservice_glue.so|dab65642bfba2756c5ad0a38e0107c3ab04637f9
 vendor/lib64/liblowi_client.so|7ca8773ca8f686459dee81d532e887d3beda53e0
 vendor/lib64/liblowi_wifihal.so|1a5b086558927837302965e68731000f5ddc37db
 vendor/lib64/libqdma_file_agent.so|8bb728b595a3bac39cdbd3c456d523f35a10ef1d
@@ -716,12 +246,7 @@ vendor/lib64/vendor.qti.gnss@2.0.so|f6f94bf22b8948c163b84cf092d86fdd25b39850
 vendor/lib64/vendor.qti.gnss@2.1.so|7f69b6098f779f6ed396bbf366b496b0b228c743
 vendor/lib64/vendor.qti.gnss@3.0-service.so|6b3c387f31f4cb91c8907362af4daa3f0cad7911
 vendor/lib64/vendor.qti.gnss@3.0.so|c5ed668d324e7c898ca026fc12dad8829cd8a944
-vendor/lib/vendor.qti.gnss@1.0.so|2fbfffb280becb4c890787958d5471c887e0e29e
-vendor/lib/vendor.qti.gnss@1.1.so|3f185bf7c146a8f77fe6c35d57358e7c64b15ac2
-vendor/lib/vendor.qti.gnss@1.2.so|020509617283c8323c71c1eec955b7a09d62aa89
-vendor/lib/vendor.qti.gnss@2.0.so|ef5e1e3718cd71a01a4ca7b06f38d56b6aca50aa
-vendor/lib/vendor.qti.gnss@2.1.so|c7eeb37d061f7978624810ccc1d1d7f25e9f95da
-vendor/lib/vendor.qti.gnss@3.0.so|e4f5a7fd2dcdf56f8d69e4d0b27e996812ebd295
+-vendor/lib64/libloc_api_v02.so|b8649d539b3ba48d3ed63dfb35e2ee827431ffa1
 
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -774,27 +299,49 @@ vendor/lib64/libmm-qdcm.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libscale.so
-vendor/lib/hw/vulkan.msm8952.so|e8af3bc7340e6eab2aaa9a21dd3a749ee8a452be
-vendor/lib64/hw/vulkan.msm8952.so|68d1968e57e98bf77ef2a5030d7880757514d358
 
-# Graphics firmware
-etc/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw
+# Graphics (Firmware) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/firmware/a530_gpmu.fw2|706da8d5ee565dcf456341f805ee75a40773f65a
+vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
+vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
+vendor/firmware/a530v1_pfp.fw|0864291b99bed712edfcffa94be7b4595d3af306
+vendor/firmware/a530v1_pm4.fw|6a82a4fb4035fa2a933c1a26b5535d7ec7c0ac4c
+vendor/firmware/a530v2_seq.fw2|63b6d25594a5c1f4217d996a2b636e17a29fc840
+vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
+vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 
-# IPA
-vendor/bin/ipacm-diag
+# Graphics (HDR) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/lib/libhdr_tm.so|4c371d0931245a65d0b4df768de8837bbdf4832e
+vendor/lib64/libhdr_tm.so|c388a9b14966583cde2c682c129fcf5cfa298239
 
-#  Keystore - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib64/hw/keystore.msm8952.so|20a5ac06eff901c97de41277ab1948d75b630c5b
+# Graphics (SDM) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
+vendor/lib/libsdm-color.so|fa3f8c0062d474fdf6960fcbcc3bf21a5c3fd594
+vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
+vendor/lib/libsdmextension.so|b6a2100c733b7a5c4688bb9bcae581461ada70f3
+vendor/lib/libtinyxml2_1.so|ef2167416f7a5a503256c5e818fcfa660d5146f4
+vendor/lib64/libscalar.so|b7feb3266d5bccab8b26c49eea6ac8e295192f9a
+vendor/lib64/libsdm-color.so|993dc946c4aa439280527c13798938c51dd9dee7
+vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
+vendor/lib64/libsdmextension.so|47b7fcfb790df4417654c566af1a8a74d4bf3e2f
+vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
+-vendor/lib/libsdm-disp-vndapis.so|9bd99e0024f5abcc285f64aadea8725556f16789
+-vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
+
+# Graphics (Vulkan) - from SRT Phone
+vendor/lib/hw/vulkan.msm8952.so|45a826c86321a3acb3556fed7988f595354ccb6c
+vendor/lib64/hw/vulkan.msm8952.so|a442c83cc25798de78fa0336358a85c8a7daccc3
+
+# Keystore
+vendor/lib64/hw/keystore.msm8952.so
 
 # Listen	
 vendor/lib/hw/sound_trigger.primary.msm8952.so	
 vendor/lib/libadpcmdec.so	
 vendor/lib/libsmwrapper.so	
 
-# Media - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# Media - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/lib/libI420colorconvert.so|0dfd4d0e49f4250e98e781483048a296a679e05e
-vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
 vendor/lib/libOmxAacDec.so|55772a6d0cf3e6a5a2c32348fd7096b8737d490b
 vendor/lib/libOmxAlacDec.so|adca064b15a7d545075af6f5222db45dec8202b5
 vendor/lib/libOmxAlacDecSw.so|8700268f92a953549e5936af9d5ccd08f99ed50f
@@ -806,8 +353,8 @@ vendor/lib/libOmxEvrcDec.so|20a6be418df26f48751b4178f5642e3fc6902690
 vendor/lib/libOmxQcelp13Dec.so|27a75185e62e88ea84ac2448a3842c998899ae90
 vendor/lib/libOmxVideoDSMode.so|84a6b99f5ad0c7dbe827eb01258cca4c790c0fe7
 vendor/lib/libOmxWmaDec.so|c3da756ae14234ae8e56cbc0b32249fbd4c8746a
--vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
 vendor/lib/libmm-color-convertor.so|7c74d36d42dc79fc58afe0f4323b76cc1297d36e
+vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
 vendor/lib/libvqzip.so|24e5eb30e5a2cdb544c8688d81d7cc75a1d85eaf
 vendor/lib64/libI420colorconvert.so|296987a0fc833ead9db3640ef2de42d7126782fb
 vendor/lib64/libOmxAacDec.so|0f0f3c9d8f285318a1d229c8ebc290810782d21c
@@ -820,26 +367,11 @@ vendor/lib64/libOmxApeDecSw.so|03885e69606e7e868fe9d1245dac5651c301a567
 vendor/lib64/libOmxEvrcDec.so|dfbf3ad5e84218c16cdd5f0ea5b60bc87906e9ee
 vendor/lib64/libOmxQcelp13Dec.so|01786938265bd0de9adef15f695102333fca60a5
 vendor/lib64/libOmxWmaDec.so|32e1b9c72d0b0a8b74978e1687b701e18030d68a
--vendor/lib64/libgpustats.so|a899ae72983277442cdacf8f43271986c91ce710
 vendor/lib64/libmm-color-convertor.so|d3539eb5a6a986f8ba81bac9cbf7b34872b12f1a
+-vendor/lib/libgpustats.so|75fc8f58b071f3c27d708010e1b40eafba091a14
+-vendor/lib64/libgpustats.so|a899ae72983277442cdacf8f43271986c91ce710
 
-# Media firmware
-etc/firmware/venus.b00|067bc9950354db9e83a0c0a6ecee0837be47e1e6
-etc/firmware/venus.b01|5a636b5fbd551a72280a615134290c14aa6d79e3
-etc/firmware/venus.b02|fa63eeef09b6c0a39c8a734f37c277fc01687b75
-etc/firmware/venus.b03|29b29b6d20e9f0caa49ff151c3b125f029eebac5
-etc/firmware/venus.b04|c1756e0567d10a1173f481cd367ff4637b2dd77f
-etc/firmware/venus.mbn|36e6190a041412152bff5e0055a342e5cdc94c6c
-etc/firmware/venus.mdt|00ef8b773c2674e7c03c4e46a4abb869f4dcb38a
-etc/firmware/venus-v1.b00|2f48a9b1b757b1ed978c80996f65e4f23b11404d
-etc/firmware/venus-v1.b01|48587d32b48b46a71bd0dc278b09fba0c6968106
-etc/firmware/venus-v1.b02|91617efa302140bf4d946fb173f7cb5eb9d0aa4d
-etc/firmware/venus-v1.b03|f4dd46f86a23c5d974f7ca2f84da1441d33115d0
-etc/firmware/venus-v1.b04|c1756e0567d10a1173f481cd367ff4637b2dd77f
-etc/firmware/venus-v1.mbn|84080bf9128b325d6c52143129aea3c932e50ee1
-etc/firmware/venus-v1.mdt|3156b0aeef473554c1b96a2b8c678d2b9c269c06
-
-# Peripheral manager - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# Peripheral manager - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/bin/pm-proxy|1f216a6f54e9b97c026f3f3bc4d7d441d58d90a7
 vendor/bin/pm-service|8a521f14576d0d2edf03b4500a54379d37e15d4e
 vendor/lib/libperipheral_client.so|b75a6adac094ddcd6ded9415cae83e18d1e7e5d0
@@ -865,21 +397,21 @@ vendor/lib64/vendor.display.color@1.0_vendor.so
 vendor/lib64/vendor.display.postproc@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
 
-# Power-off alarm - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
--product/app/PowerOffAlarm/PowerOffAlarm.apk|46387fe02067df3c4c09ec49fff7737473ea1145
+# Power-off alarm - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|28c768324a36e12a8c4a1a968caa25ad94a160fe
 vendor/bin/power_off_alarm|a98e375328492c0405d1712722bca0effa8cf2bb
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|656009a5cc2b3bc52a7706579a192a1f3328f37c
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|78f8db9acff8b3461d6d37c747b1bdb59e547bb5
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|46387fe02067df3c4c09ec49fff7737473ea1145
 
 # QMI
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml
 lib/libdiag_system.so
 lib/libqmi_cci_system.so
-lib64/libdiag_system.so
+lib64/libdiag_system.so:product/lib64/libdiag_system.so
 lib64/libqmi_cci_system.so
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
@@ -913,22 +445,14 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 vendor/lib64/libsmemlog.so
 
-# QMI - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# QMI - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/lib/libqmi_cci.so|a921e84ec500f7cfb7fe88a4ffba149581410a44
 vendor/lib64/libqmi_cci.so|411a074dc765fb263bec50531ce5c408dd72388f
 
-# RIL - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
-product/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
-vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
-vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
-
 # Radio
--app/QtiTelephonyService/QtiTelephonyService.apk
-etc/permissions/qcrilhook.xml
-etc/permissions/telephonyservice.xml
--framework/QtiTelephonyServicelibrary.jar
--framework/qcrilhook.jar
+-app/QtiTelephonyService/QtiTelephonyService.apk:product/app/QtiTelephonyService/QtiTelephonyService.apk
+-framework/QtiTelephonyServicelibrary.jar:product/framework/QtiTelephonyServicelibrary.jar
+-framework/qcrilhook.jar:product/framework/qcrilhook.jar
 vendor/bin/netmgrd
 vendor/bin/qmuxd
 vendor/bin/qti
@@ -974,17 +498,8 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
 
-# IMS - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
-product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
-product/lib64/libimsmedia_jni.so|3540752cc3658261ea3c909f03018eea4398f84e
--product/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
-vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
-vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
-vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
-vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
-
 # Radio - IMS
-etc/permissions/qti-vzw-ims-internal.xml
+etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
@@ -994,18 +509,18 @@ lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
 lib/librcc.so
 lib/vendor.qti.imsrtpservice@1.0.so
-lib64/com.qualcomm.qti.imscmservice@1.0.so
-lib64/lib-imscamera.so
-lib64/lib-imsvideocodec.so
-lib64/lib-imsvt.so
-lib64/lib-imsvtextutils.so
-lib64/lib-imsvtutils.so
-lib64/librcc.so
-lib64/vendor.qti.imsrtpservice@1.0.so
+lib64/com.qualcomm.qti.imscmservice@1.0.so:product/lib64/com.qualcomm.qti.imscmservice@1.0.so
+lib64/lib-imscamera.so:product/lib64/lib-imscamera.so
+lib64/lib-imsvideocodec.so:product/lib64/lib-imsvideocodec.so
+lib64/lib-imsvt.so:product/lib64/lib-imsvt.so
+lib64/lib-imsvtextutils.so:product/lib64/lib-imsvtextutils.so
+lib64/lib-imsvtutils.so:product/lib64/lib-imsvtutils.so
+lib64/librcc.so:product/lib64/librcc.so
+lib64/vendor.qti.imsrtpservice@1.0.so:product/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
-vendor/bin/imsrcsd|39b71e1f7e76b58ebd4dd44fef8ee1f6bc15464c
+vendor/bin/imsrcsd
 vendor/framework/qti-vzw-ims-internal.jar
 vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib/lib-imsSDP.so
@@ -1017,7 +532,7 @@ vendor/lib/lib-rtpcommon.so
 vendor/lib/lib-rtpcore.so
 vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/lib-rtpsl.so
-vendor/lib/lib-uceservice.so|5ddffb71e712bb5be2a8f009dc50d536af98cd38
+vendor/lib/lib-uceservice.so
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so
@@ -1031,45 +546,67 @@ vendor/lib64/lib-rtpcommon.so
 vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
-vendor/lib64/lib-uceservice.so|0f8b0a2a97937ac7649c699c7e96297688903f8c
+vendor/lib64/lib-uceservice.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
-vendor/lib64/libbase-hax.so|0bdae22ed6c050b13358c91dd332c9ef0c836ae7
 
-# Sensors
-vendor/bin/sensors.qti|3d6881f1210907aaf53dcc35b8afb55945c4af69
-vendor/lib/hw/activity_recognition.msm8952.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/sensor_calibrate.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8952.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/sensor_calibrate.so
-vendor/lib64/sensors.ssc.so
+# RIL - from mata - essential/mata/mata:10/QP1A.190711.122/420
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
 
-# Thermal - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.11.0.QDLMIXM
+# RIL - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml|68901007ba1a48ceb1b728fc3b5483dd51b5e3a0
+product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
+product/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
+vendor/bin/adpl|2fa02f099b90705a2bfc9d1937d6b8b7f55c252a
+vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
+vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
+vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
+vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
+vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
+vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
+vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
+vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
+
+# RIL - from river - motorola/river_retail/river:10/QPU30.52-16-2/be43c
+vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
+vendor/etc/init/vendor.qti.tftp.rc|091915c28a3bc574d39189688748cc922d9e65e4
+
+# RIL (IMS) - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
+product/lib64/libimsmedia_jni.so|3540752cc3658261ea3c909f03018eea4398f84e
+-product/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
+
+# Sensors - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/bin/sensors.qti|a0701f889c2af8dd964a8f0300761e91a3748815
+vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8952.so|1c7334f56182513bddefcb3b655064cca1121e21
+vendor/lib/libsensor1.so|a3bff5966ef0dd0623d385da9a8809f6dabb11f3
+vendor/lib/libsensor_reg.so|8f113416861ab8c14613ebf3ea6eeb9997971624
+vendor/lib/sensor_calibrate.so|63edd83044713c8b5545655daf4e0eb7cdbebe1d
+vendor/lib/sensors.ssc.so|302e5aee38e1296dfba32b681681492d5070f509
+vendor/lib64/hw/activity_recognition.msm8953.so:vendor/lib64/hw/activity_recognition.msm8952.so|51a67f37dc2f7c9654fa3efe6a193e8dd93846c2
+vendor/lib64/libsensor1.so|24a1ee61b8d8d9494c7ce637bfdc280b428da5c8
+vendor/lib64/libsensor_reg.so|54baa94535e7dd96804019810e90cfbec5519bf5
+vendor/lib64/sensor_calibrate.so|4bb147013fc7bb41b1009b591a4d91abbc54fb30
+vendor/lib64/sensors.ssc.so|9affbc5130223a63c7c8ee33a1b7408d739e1466
+
+# Thermal - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
 vendor/bin/thermal-engine|4ab3c410fbcf9f8cae711ea4ba16cd2797712de6
--vendor/lib64/libthermalclient.so|12b26d4242b1a8913ddcb511f42a1debb83689af
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
 -vendor/lib/libthermalclient.so|6077e27e15d9e3e43fa57d6d5405c49284f48949
+-vendor/lib64/libthermalclient.so|12b26d4242b1a8913ddcb511f42a1debb83689af
 
-# Time services - from smartron-rimo02a-8.0.0-T5524INDURC-475
--vendor/lib/libtime_genoff.so|5364ab63bf4c30f8cece3fe6f41de919c2034791
--vendor/lib64/libtime_genoff.so|2fd4f27d66d3fbe4a1b3bf72dbf6cd90041559b5
+# Time services - from daisy - xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.18.0.QDLMIXM
+vendor/bin/time_daemon|75b8a6a14cfb4424499ccb2bf1cad011df295d0e
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib/libtime_genoff.so|a574d287e7e73649685b702f4fe497eb7c6ba727
+vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
+-vendor/app/TimeService/TimeService.apk;:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|27f9b81621c446baa8c37581d9bfbca2fd67b496
 
-# Widevine - from LA.UM.8.6.2.r1-03700-89xx.0
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
-vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 
 # Wi-Fi
+vendor/bin/wcnss_filter
 bin/wcnss_service
 lib/libsoeminfo.so
 lib64/libsoeminfo.so
-
-# msm_irqbalance - from sailfish - PPR2.181005.003
-vendor/bin/msm_irqbalance|3f7a923d9d01dbfda40ebdfdd27a62167df69c13
-
